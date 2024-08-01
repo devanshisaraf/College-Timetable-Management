@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Time Table Management System - Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section-background">
+            <h2>Attendance Tracking</h2>
+            <div id="attendance-content">
+                <!-- Attendance content will be dynamically loaded here -->
+            </div>
+            <div id="attendance-form-container" style="display:none;">
+                <h3>Input Attendance</h3>
+                <form id="attendance-form">
+                    <label for="student">Student Name:</label>
+                    <input type="text" id="student" name="student" required>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <label for="status">Status:</label>
+                    <select id="status" name="status" required>
+                        <option value="Present">Present</option>
+                        <option value="Absent">Absent</option>
+                    </select>
+                    <button type="submit">Add Attendance</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
