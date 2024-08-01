@@ -1,7 +1,3 @@
-Here’s a sample README file for your GitHub repository:
-
----
-
 # College Timetable Management System
 
 Welcome to the College Timetable Management System! This project is designed to help manage college timetables, announcements, schedules, and attendance using local storage.
